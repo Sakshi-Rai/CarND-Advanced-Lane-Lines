@@ -21,10 +21,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/polyline2.png "DistortedImage"
 [image6]: ./output_images/pixel.png "Pixels"
 [image7]: ./output_images/test6.png "Final Output"
-[image8]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image9]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image10]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
+[video1]: ./solidWhiteRight.mp4 "Video"
 
 ### Writeup / README
 
@@ -44,7 +41,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 #### 1. Provide an example of a distortion-corrected image.
 
-To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
+To demonstrate this step, I applied the distortion correction to one of the test images and this is the output:
 ![alt text][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
@@ -99,7 +96,7 @@ I implemented this step in lines # through # in my code in `P4.ipynb` in the fun
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./final_video.mp4)
+Here's a [link to my video result](./solidWhiteRight.mp4)
 
 ---
 
