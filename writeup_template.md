@@ -46,7 +46,7 @@ To demonstrate this step, I applied the distortion correction to one of the test
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used color threshold of (90-255) and gradient thresholds of (20,100) to generate a binary image. Here's an example of my output for this step.
+I used r channel and g channel color threshold of 130 and for s channel,i used (90-255) and gradient thresholds of (20,100) and for direction threshold,I used pi/6 to pi/2 to generate a binary image. Here's an example of my output for this step.
 
 ![alt text][image3]
 
